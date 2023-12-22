@@ -2,6 +2,7 @@ package tech.codejunkie.employeemanager.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import tech.codejunkie.employeemanager.exception.UserNotFoundException;
 import tech.codejunkie.employeemanager.model.Employee;
 import tech.codejunkie.employeemanager.repo.EmployeeRepo;
 
